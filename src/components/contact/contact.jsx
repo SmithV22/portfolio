@@ -1,11 +1,26 @@
 
-import React from 'react' ;
-import { TfiEmail } from 'react-icons/tfi' ;
-import { TbMessageShare } from 'react-icons/tb' ;
+import React, { useRef } from 'react';
+import { TfiEmail } from 'react-icons/tfi';
+import { TbMessageShare } from 'react-icons/tb';
+import emailjs from 'emailjs-com';
 
-import './contact.css' ;
+import './contact.css';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_azu0zlp', 'template_53ikf4l', form.current, '_RYfN4g-vsMlN55yL')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset() ;
+    };
+
     return (
         <section id='contact'>
             <h5>Get In Touch</h5>
@@ -27,10 +42,10 @@ const Contact = () => {
                 </div>
                 <div>
 
-                    <form action="">
+                    <form ref={ form } onSubmit={ sendEmail }>
                         <input type="text" name='name' placeholder='Please Enter Your Name' required />
                         <input type="email" name='email' placeholder='Please Enter Your Email' required />
-                        <textarea name='message' rows={ 7 } required placeholder='Please Enter Your Message'/>
+                        <textarea name='message' rows={7} required placeholder='Please Enter Your Message' />
                         <button type='submit' className='btn btn-primary'>Send Message</button>
                     </form>
                 </div>
@@ -39,4 +54,4 @@ const Contact = () => {
     )
 }
 
-export default Contact ;
+export default Contact;

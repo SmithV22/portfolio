@@ -5,10 +5,20 @@ import './footer.css' ;
 const Footer = () => {
     return (
         <section id='footer'>
-
-            <div>footer
-                <a href="https://www.freepik.com/free-vector/wave-textures-white-background-vector_3428189.htm#query=texture%20background&position=1&from_view=keyword">Image by rawpixel.com</a> on Freepik
-            </div>
+            <footer>
+                <div className='footer__valedictions'>
+                    <h3 className='thanks'>** THANK YOU FOR VISITING **</h3>
+                    <h3 className='come'>** COME AGAIN TO SEE WHAT'S NEW **</h3>
+                </div>
+                <div className="footer__copy">
+                    <small>
+                        &copy; Neia Software Design
+                    </small>
+                    <small>  All Rights Reserved</small>
+                </div>
+            </footer>
+            
+            
         </section>
     )
 }

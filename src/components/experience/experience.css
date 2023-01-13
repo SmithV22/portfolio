@@ -29,6 +29,8 @@
     display: grid ;
     grid-template-columns: 1fr 1fr ;
     row-gap: 1.5rem ;
+    font-size: 16px ;
+    text-align: left;
 }
 
 .experience__details {
@@ -39,6 +41,7 @@
 .experience__details-icons {
     margin-top: 6px ;
     color: var(--color-primary) ;
+    
 }
 
 .experience__details-icons {

@@ -24,20 +24,20 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>New To Field</small>
+                            <small>Recent Grad</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>Something here</small>
+                            <h5>Developer</h5>
+                            <small>Full Stack</small>
                         </article>
                         <article className='about__card'>
                             <AiOutlineFileSync className='about__icon' />
                             <h5>Projects</h5>
-                            <small>Number of projects</small>
+                            <small>See Below</small>
                         </article>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit laboriosam nesciunt accusamus mollitia, dolores quae libero totam ducimus. Porro velit voluptas commodi a magnam at dicta consectetur aliquam in?</p>
+                    <p>I am a recent Full stack graduate from Coding Dojo. The stacks I studied were MERN, Java, and Python. Enjoy my website and leave me a comment. Thank you! </p>
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
             </div>
