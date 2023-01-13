@@ -68,6 +68,28 @@ header__container {
     padding: 1rem ;
 }
 
+.borderL {
+    position: absolute ;
+    left: -7rem ;
+    bottom: 22rem ;
+    transform: rotate(90deg) ;
+    padding: .5rem;
+    background: var(--color-primary-variant);
+    height: 2px ;
+    width: 675px;
+}
+
+.borderR {
+    position: absolute ;
+    right: -7rem ;
+    top: 20rem ;
+    transform: rotate(90deg) ;
+    padding: .5rem ;
+    background: var(--color-primary-variant);
+    height: 2px ;
+    width: 600px;
+}
+
 /*!   ***MEDIA QUIERIES */
 @media screen and (max-width: 1024px) {
     header {

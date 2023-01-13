@@ -8,13 +8,15 @@ import HeaderSocial from './headerSocials' ;
 
 const Header = () => {
     return (
-        <header>
+        <header id='home'>
             <div className="container header__container">
                 <h5>Hello I'm</h5>
                 <h1>Victoria Smith</h1>
                 <h5 className="text-light">Full Stack Developer</h5>
                 <CTA />
                 <HeaderSocial />
+                    <div className='borderL'></div>
+                    <div className='borderR'></div>
                 <div className="me">
                     <img src={Me} alt="profile pic" />
                 </div>
