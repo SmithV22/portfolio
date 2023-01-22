@@ -43,10 +43,10 @@ header__container {
 
 .me {
     background: var(--color-primary) ;
-    width: 20rem ;
-    height: 20rem ;
+    width: 22rem ;
+    height: 25rem ;
     position: absolute ;
-    left: calc(50% - 10rem) ;
+    left: calc(50% - 11rem) ;
     margin-top: 4rem ;
     border-radius: 12rem 12rem 0 0 ;
     overflow: hidden ;
@@ -54,7 +54,7 @@ header__container {
 
 .me img {
     border-radius: 12rem 12rem 0 0 ;
-    height: 20rem ;
+    height: 25rem ;
 }
 
 /* !  ***SCROLL DOWN*** */
@@ -70,7 +70,7 @@ header__container {
 
 .borderL {
     position: absolute ;
-    left: -7rem ;
+    left: -9rem ;
     bottom: 22rem ;
     transform: rotate(90deg) ;
     padding: .5rem;
