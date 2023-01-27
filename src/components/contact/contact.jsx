@@ -31,7 +31,7 @@ const Contact = () => {
                         <TfiEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>VSmith@neiasoftwaredesign.com</h5>
-                        <a href="mailto:waterfiredragon111@gmail.com" target='_blank' rel="noreferrer">Email Me</a>
+                        <a href="mailto:VSmith@neiasoftwaredesign.com" target='_blank' rel="noreferrer">Email Me</a>
                     </article>
                     <article className="contact__option">
                         <TbMessageShare className='contact__option-icon' />

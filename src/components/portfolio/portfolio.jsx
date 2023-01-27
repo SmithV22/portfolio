@@ -13,42 +13,42 @@ const Portfolio = () => {
         {
             id: 1,
             image: People,
-            title: 'title',
+            title: 'Coming Soon',
             github: 'https://github.com/smithv22/soloproject',
             demo: 'www.neiasoftwaredesign.com'
         },
         {
             id: 2,
             image: Programming,
-            title: 'title',
+            title: 'Coming Soon',
             github: 'https://github.com/smithv22/soloproject',
             demo: 'www.neiasoftwaredesign.com'
         },
         {
             id: 3,
             image: Button,
-            title: 'title',
+            title: 'Coming Soon',
             github: 'https://github.com/smithv22/soloproject',
             demo: 'www.neiasoftwaredesign.com'
         },
         {
             id: 4,
             image: World,
-            title: 'title',
+            title: 'Coming Soon',
             github: 'https://github.com/smithv22/soloproject',
             demo: 'www.neiasoftwaredesign.com'
         },
         {
             id: 5,
             image: Doodle,
-            title: 'title',
+            title: 'Coming Soon',
             github: 'https://github.com/smithv22/soloproject',
             demo: 'www.neiasoftwaredesign.com'
         },
         {
             id: 6,
             image: Languages,
-            title: 'title',
+            title: 'Coming Soon',
             github: 'https://github.com/smithv22/soloproject',
             demo: 'www.neiasoftwaredesign.com'
         },

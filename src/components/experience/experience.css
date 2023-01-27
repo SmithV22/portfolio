@@ -5,9 +5,13 @@
     gap: 2rem ;
 }
 
+/* .experience__heading {
+    padding-bottom: 2rem;
+} */
 .experience__container > div {
     background: var(--color-bg-variant) ;
-    padding: 2.4rem 3.5rem ;
+    padding: 2.4rem 3.4rem ;
+    margin-top: 5.2rem;
     border-radius: 2rem ;
     border: 1px solid transparent ;
     transition: var(--transition);
@@ -29,7 +33,7 @@
     display: grid ;
     grid-template-columns: 1fr 1fr ;
     row-gap: 1.5rem ;
-    font-size: 16px ;
+    font-size: 18px ;
     text-align: left;
 }
 
@@ -42,11 +46,6 @@
     margin-top: 6px ;
     color: var(--color-primary) ;
     
-}
-
-.experience__details-icons {
-    margin-top: 6px ;
-    color: var(--color-primary) ;
 }
 
 @media screen and (max-width: 1024px) {
