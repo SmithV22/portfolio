@@ -10,6 +10,7 @@ import AboutMe from '../../assets/me3.png' ;
 
 const About = () => {
     return (
+    
         <section id='about'>
             <h5>Get To Know</h5>
             <h2 className='about__heading'>About Me</h2>
@@ -37,7 +38,7 @@ const About = () => {
                             <small>See Below</small>
                         </article>
                     </div>
-                    <p>I am a recent Full stack graduate from Coding Dojo. The stacks I studied were MERN, Java, and Python. Enjoy my website and leave me a comment. Thank you! </p>
+                    <p className='about__text'>I am a recent Full stack graduate from Coding Dojo. The stacks I studied were MERN, Java, and Python. Enjoy my website and leave me a comment. Thank you! </p>
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
             </div>

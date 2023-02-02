@@ -3,7 +3,7 @@ import React from 'react' ;
 import { BsLinkedin } from 'react-icons/bs' ;
 import { AiOutlineGithub } from 'react-icons/ai' ;
 
-const headerSocials = () => {
+const HeaderSocials = () => {
     return (
         <div className='header__socials'>
             <a href="https://www.linkedin.com/in/victoria-smith-software-developer/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
@@ -12,4 +12,4 @@ const headerSocials = () => {
     )
 }
 
-export default headerSocials ;
+export default HeaderSocials ;

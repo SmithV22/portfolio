@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 40% 58% ;
     gap: 12% ;
+    padding: 5rem 0 ;
 }
 
 .contact__options {
@@ -65,9 +66,14 @@ button {
 }
 
 @media screen and (max-width: 1024px) {
+    .section {
+        margin-top: 22rem;
+    }
+
     .container.contact__container {
         grid-template-columns: 1fr ;
         gap: 2rem ;
+        padding: 0;
     }
 }
 
@@ -75,4 +81,6 @@ button {
     .container.contact__container {
         width: var(--container-width-sm);
     }
+
+
 }

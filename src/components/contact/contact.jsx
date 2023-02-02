@@ -22,7 +22,7 @@ const Contact = () => {
     };
 
     return (
-        <section id='contact'>
+        <section id='contact' className='section'>
             <h5>Get In Touch</h5>
             <h2>Contact Me</h2>
             <div className="container contact__container">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
 
-                    <form ref={ form } onSubmit={ sendEmail }>
+                    <form ref={ form } onSubmit={ sendEmail } >
                         <input type="text" name='name' placeholder='Please Enter Your Name' required />
                         <input type="email" name='email' placeholder='Please Enter Your Email' required />
                         <textarea name='message' rows={7} required placeholder='Please Enter Your Message' />

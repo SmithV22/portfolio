@@ -5,6 +5,10 @@
     gap: 2.5rem ;
 }
 
+.portfolio__text {
+    text-align: center;
+}
+
 .portfolio__item {
     background: var(--color-bg-variant) ;
     padding: 1.2rem ;
@@ -21,7 +25,7 @@
 .portfolio__item-image {
     border-radius: 1.5rem ;
     overflow: hidden ;
-    height: 300px;
+    height: 250px;
 }
 
 .portfolio__item h3 {
@@ -44,12 +48,34 @@
         align-items: center ;
         justify-content: center ;
     }
+
+    .portfolio__item-cta a {
+        margin: 0 1rem ;
+    }
+
+    .portfolio__item-image {
+        height: 200px;
+    }
+
+    
 }
 
 @media screen and (max-width: 600px) {
     .portfolio__container {
         grid-template-columns: 1fr ;
         gap: 1rem ;
+    }
+
+    .portfolio__item {
+        height: 300px;
+    }
+
+    .portfolio__item-cta a {
+        margin: 0 1rem ;
+    }
+
+    .portfolio__item-image {
+        height: 150px;
     }
 }
 

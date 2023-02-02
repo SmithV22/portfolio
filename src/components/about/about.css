@@ -1,12 +1,16 @@
 
+section {
+    height: 100vh;
+}
 .about__container {
     display: grid ;
     grid-template-columns: 35% 50% ;
-    gap: 15% ;
+    gap: 10% ; 
+    padding: 5rem 0 ;
 }
 
 .about__heading {
-    padding-bottom: 2rem;
+    padding-bottom: 3.5rem;
 }
 
 .about__me-image {
@@ -15,6 +19,12 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent) ;
     display: grid ;
     place-items: center ;
+}
+
+.about__text {
+    width: 100%;
+    text-align: center ;
+    margin-left: 2rem;
 }
 
 .about__me img {
@@ -31,7 +41,7 @@
 
 .about__cards {
     display: grid ;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 173px) ;
     gap: 1.5rem ;
 }
 
@@ -39,14 +49,14 @@
     background: var(--color-bg-variant) ;
     border: 1px solid transparent ;
     border-radius: 1rem ;
-    padding: 2.3rem ;
+    padding: 2rem ;
     text-align: center ;
     transition: var(--transition) ;
 }
 
 .about__card:hover {
     background: transparent ;
-    border-color: var(--color-primary-cariant) ;
+    border-color: var(--color-primary-variant) ;
     cursor: default ;
 }
 
@@ -68,8 +78,9 @@
 .about__content p {
     margin: 2rem 0 2.6rem ;
     color: var(--color-light) ;
-}
-a {
+} 
+
+.about__content a {
     font-weight: bold;
 }
 
@@ -91,6 +102,12 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+    section{
+        height: 80%;
+    }
+    .about__container {
+        padding: 20px 0;
+    }
     .about__me {
         width: 45% ;
         margin: 0 auto 2rem ;
@@ -99,11 +116,15 @@ a {
     .about__cards {
         grid-template-columns: repeat(1, 1fr) ;
         gap: .5rem ;
-        
+    }
+
+    .about__heading {
+        padding-bottom: 0;
     }
 
     .about__content {
         text-align: center ;
+        padding-bottom: 20px;
         
     }
 
