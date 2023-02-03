@@ -74,7 +74,7 @@ const Portfolio = () => {
                                     <div className="portfolio__item-image">
                                         <img src={image} alt={title} />
                                     </div>
-                                    <h3 className='portfolio__text'>{title}</h3>
+                                    <h4 className='portfolio__text'>{title}</h4>
                                     <div className="portfolio__item-cta">
                                         <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
                                         { user ? (

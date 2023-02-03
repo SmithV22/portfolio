@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react' ;
+import { Link } from 'react-router-dom' ;
 import {  useNavigate } from 'react-router-dom' ;
 import {  useDispatch } from 'react-redux' ;
 import { BiHome, BiMessageDetail } from 'react-icons/bi' ;
@@ -28,7 +29,7 @@ const Navbar = () => {
             <a href="#experience" onClick={ () => setActiveNav('#experience') } className={ activeNav === '#experience' ? 'active' : '' }><MdOutlineComputer /></a>
             <a href="#portfolio" onClick={ () => setActiveNav('#portfolio') } className={ activeNav === '#portfolio' ? 'active' : '' }><MdOutlineFolderSpecial /></a>
             <a href="#contact" onClick={ () => setActiveNav('#contact') } className={ activeNav === '#contact' ? 'active' : '' }><BiMessageDetail /></a>
-            <a href="/login" onClick={ () => setActiveNav('/login') } className={ activeNav === '/login' ? 'active' : '' }><FiLogIn /></a>
+            <Link to="/login" onClick={ () => setActiveNav('/login') } className={ activeNav === '/login' ? 'active' : '' }><FiLogIn /></Link>
             <a href="#logout" onClick={ onLogout } className={ activeNav === '/#logout' ? 'active' : '' }><FiLogOut /></a>
         </nav>
     )

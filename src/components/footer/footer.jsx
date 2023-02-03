@@ -4,7 +4,7 @@ import './footer.css' ;
 
 const Footer = () => {
     return (
-        <section id='footer'>
+        <div id='footer'>
             <footer>
                 <div className='footer__valedictions'>
                     <h3 className='thanks'>** THANK YOU FOR VISITING **</h3>
@@ -17,9 +17,7 @@ const Footer = () => {
                     <small>  All Rights Reserved</small>
                 </div>
             </footer>
-            
-            
-        </section>
+        </div>
     )
 }
 

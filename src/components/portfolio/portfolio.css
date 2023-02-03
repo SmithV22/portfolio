@@ -2,7 +2,7 @@
 .portfolio__container {
     display: grid ;
     grid-template-columns: repeat(3, 1fr) ;
-    gap: 2.5rem ;
+    gap: 2rem ;
 }
 
 .portfolio__text {
@@ -11,10 +11,11 @@
 
 .portfolio__item {
     background: var(--color-bg-variant) ;
-    padding: 1.2rem ;
+    padding: 1rem ;
     border-radius: 2rem ;
     border: 1px solid transparent ;
     transition: var(--transition) ;
+    height: 375px ;
 }
 
 .portfolio__item:hover {
@@ -25,11 +26,11 @@
 .portfolio__item-image {
     border-radius: 1.5rem ;
     overflow: hidden ;
-    height: 250px;
+    height: 200px;
 }
 
-.portfolio__item h3 {
-    margin: 1rem 0 1rem;
+.portfolio__item h4 {
+    margin: .5rem 0 ;
 }
 
 .portfolio__item-cta {
@@ -76,6 +77,12 @@
 
     .portfolio__item-image {
         height: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portfolio__item-image {
+        height: 140px;
     }
 }
 

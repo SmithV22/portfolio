@@ -18,7 +18,6 @@ const HomePage = () => {
             <Experience />
             <Portfolio />
             <Contact />
-            <Footer />
         </div>
     )
 }
