@@ -28,7 +28,7 @@ const Login = () => {
             toast.error(message)
         }
         if (isSuccess || user) {
-            navigate('/')
+            navigate('/') ;
         }
         dispatch(reset())
     }, [user, isError, isSuccess, message, navigate, dispatch])
@@ -41,12 +41,13 @@ const Login = () => {
     }
     
     const onSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault() ;
         const userData = {
             email,
             password
         }
         dispatch(login(userData)) ;
+        
     }
 
     if (isLoading) {
@@ -76,7 +77,6 @@ const Login = () => {
                 </form>
             </div>
         </>
-        
     )
 }
 

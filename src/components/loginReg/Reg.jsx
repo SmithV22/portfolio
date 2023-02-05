@@ -44,7 +44,7 @@ function Reg () {
         }))
     }
     const onSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault() ;
         if(password !== confirmPassword) {
             toast.error('Passwords do not match')
         } else {
@@ -54,7 +54,7 @@ function Reg () {
                 email,
                 password,
             }
-            dispatch(register(userData))
+            dispatch(register(userData)) ;
         }
     }
     if(isLoading) {
@@ -73,10 +73,10 @@ function Reg () {
             <div className="form">
                 <form onSubmit={ onSubmit }>
                     <div className="form-group">
-                        <input type="text" className="form-control" id='firstName' name='firstName' placeholder='Enter your name' value={ firstName } onChange={onChange}/>
+                        <input type="text" className="form-control" id='firstName' name='firstName' placeholder='Enter your first name' value={ firstName } onChange={onChange}/>
                     </div>
                     <div className="form-group">
-                        <input type="text" className="form-control" id='lastName' name='lastName' placeholder='Enter your name' value={ lastName } onChange={onChange}/>
+                        <input type="text" className="form-control" id='lastName' name='lastName' placeholder='Enter your last name' value={ lastName } onChange={onChange}/>
                     </div>
                     <div className="form-group">
                         <input type="email" className="form-control" id='email' name='email' placeholder='Enter your email' value={ email } onChange={onChange} />
